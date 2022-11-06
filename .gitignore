@@ -1,0 +1,30 @@
+# Editor related ignore files
+.theia/compiler_status.json
+.theia
+# If you need to enforce settings project wide, comment this line and uncomment the line above.
+# .theia 
+.vscode
+.DS_Store
+
+# Typescript&Javascript generated files
+node_modules/
+yarn-error.log
+tsconfig.buildinfo
+
+# Output files which are used for publishing
+output/*
+!output/Android/README.md
+!output/iOS/README.md
+!output/.license.xml
+
+# Plugins
+plugins/*
+!plugins/Android/README.md
+!plugins/iOS/README.md
+
+# Compiled output
+dist
+scripts/generated
+
+# Ignore automated images which users put manually
+images/automated/*.png
